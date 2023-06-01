@@ -77,7 +77,7 @@ menu a{
 .precio,.btnComprar,.cantidad,.btnResetear{
     margin-left: 10px;
 }
-.btnMas, .btnMenos{
+.increment-btn, .decrement-btn{
     width: 30px;
     margin: 5px;
     margin-left: 10px;
