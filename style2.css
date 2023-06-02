@@ -143,3 +143,41 @@ span{
     margin-left: 60px;
     }
 }
+@media screen and (max-width:480px) {
+    .exeryTitulo{
+        font-size: 3em;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .menu{
+        display: none;
+    }
+    .contenedorCard2{
+        width: 380px;
+        height: 500px;
+    }
+    .img2{
+        width: 380px;
+        height: 300px;
+        margin: 20px 10px;
+        margin-top: 200px;
+        border-radius: 20px;  
+    }
+    .contenidoCard2{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width:320px;
+        height: 620px;
+        margin: auto;
+    }
+    .lorem{
+        width:320px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+      }
