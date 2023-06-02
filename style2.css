@@ -89,3 +89,57 @@ menu a{
 span{
     font-size: 1.5em;
 }
+/* media queries */
+@media screen and (max-width:1920px){
+    .contenedorCard2{
+        margin-left: 100px;
+        width: 85%;
+        height: 35%;
+    }
+    .contenidoCard2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:500px ;
+    }
+}
+@media screen and (max-width:1280px) {
+    .contenedorCard2{
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+    } 
+    .contenidoCard2{
+        height: 20px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left:40px;
+    }
+    .lorem{
+    width: 500px;
+    margin-left: 60px;
+    }
+}
+@media screen and (max-width:800px) {
+    .contenedorCard2{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    } 
+    .contenidoCard2{
+        height: 20px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left:40px;
+    }
+    .lorem{
+    width: 500px;
+    margin-left: 60px;
+    }
+}
