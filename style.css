@@ -321,7 +321,7 @@ body{
 
 /* Media Queries */
 
-@media (min-width:768px) and (max-width:1350px){
+@media screen and (max-width:1350px){
     .ourBlog{
         display: flex;
         flex-direction: column;
@@ -406,6 +406,94 @@ body{
         font-size: 0.6em;
     }
 }
+@media screen and (max-width:1024px){
+.ourBlog{
+        display: flex;
+        flex-direction: column;
+    } 
+    .loremTitulo{
+        margin: 20px;
+        margin-left: -40px;
+        width: 280px;
+    } 
+    .openPage{
+        margin-left:-50px;
+    }
+    .contenedorCards1{
+        display: flex;
+        flex-direction: column;
+        width: 850px;
+    }
+    .cardUno{
+        width: 850px;
+        margin:auto;
+    }
+    .ContenidoUno{
+        display: flex; 
+    }
+    .margenH3{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorCards2{
+        display: flex;
+        flex-direction: column;
+        width: 850px;
+    }
+    .cardTres{
+        width: 850px;
+        margin-left:auto;
+    }
+    .cardCuatro{
+        width: 850px;
+        margin-left:auto; 
+    }
+    .exery{
+        display: flex;
+        margin-left: 80px;
+        margin-top: 45px;
+    }
+    .exeryTitulo{
+     font-size: 1.3em;
+    }
+    .icons{
+        margin-top: 20px;
+        width: 40px;
+        font-size: 0.6em;
+        justify-content:space-evenly; 
+    }
+    .helpContenedor{
+        display: flex;
+        margin-left: 140px;
+        font-size: 0.8em;
+    }
+    .aboutContenedor{
+        display: flex;
+        font-size: 0.8em;
+        margin-left: 140px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .mobileContenedor{
+        display: flex;
+        font-size: 0.8em;
+        margin-left: 140px;
+        margin-right: 40px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    } 
+    .contenedorFinal{
+        display: flex;
+        margin-left:25px;
+        width:960px;
+    }
+    .piePagina{
+        font-size: 0.6em;
+    }
+    .arrow{
+        margin-left: 100px;
+    }
+}
 @media(max-width:480px){
     .ourBlog{
         display: flex;
@@ -451,7 +539,7 @@ body{
         margin:auto;
     }
     .img1, .img2, .img3, .img4{
-        width:200px;
+        width:320px;
         margin-bottom: 30px;
     }
     .btn1, .btn2, .btn3, .btn4{
@@ -485,30 +573,34 @@ body{
     }
     .contenedorFinal{
         display: flex;
+        justify-content: center;
         flex-direction: column;
         justify-content: space-around;
-        width:260px;
-        height: 620px;
+        width:380px;
+        height: 650px;
+        margin: auto;
     }
     .exery{
         display: flex;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 150px;
         margin-top: 20px;
     }
     .exeryTitulo{
-        font-size: 1.3em;
+        font-size: 1.8em;
     }
     .icons{
         margin-top: 20px;
         width: 40px;
-        font-size: 0.6em;
+        margin-left: 10px;
+        gap: 5px;
+        font-size: 0.8em;
         justify-content:space-evenly; 
     }
     .helpContenedor{
         display: flex;
         height: 30px;
-        margin-left: 80px;
+        margin-left: 120px;
         font-size: 0.8em;
     }
     .help{
@@ -517,27 +609,32 @@ body{
     .aboutContenedor{
         display: flex;
         font-size: 0.8em;
-        margin-left: 80px;
+        margin-left: 120px;
     }
     .mobileContenedor{
         display: flex;
         font-size: 0.8em;
-        margin-left: 80px;
+        margin-left: 120px;
         margin-right: 40px;
         margin-top: -40px;
     } 
     .piePagina{
-        width: 380px;
+        width: 220px;
+        height: 60px;
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
+        justify-content: center;
+        margin-left: 120px;
         font-size: 0.6em;
     }
     .arrow{
-        margin-left: 100px;
+        margin: auto;
+        margin-top: -30px;
     }
-    .privacy{
-        margin-right: 40px;
-        margin-top: 5px;
+    .piePagina{
+       display: flex;
+       text-align: center;
+       gap: 10px;
     }
+    
 }
